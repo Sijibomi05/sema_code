@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+       <title>SEMA FOODS Website Design</title>
+       <link rel="stylesheet" href="style.sema.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+       <section class="sub-header">
+          <nav> 
+            <a href="SEMA WEBSITE.html"><img src="Images/semalogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PRODUCT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+    <div class="text-box">
+        <h1>About Us</h1>
+        </section>
+       
+     
+
+         <!-----Footer----->
+
+          <!----- about us content----->
+
+          <section class="about-us">
+
+            <div class="row">
+              <div class="about-col">
+                  <h1>We Deliver Home and Abroad</h1>
+                  <p>SEMA FOODS, established on August 1st, 2022, envisions becoming the world's leading food processing and packaging company built on sincerity, trust, and communication. Operating in Lagos and Ibadan, Nigeria, they specialize in sourcing the best foodstuffs, ensuring neat packaging under hygienic conditions. Offering affordable prices in wholesale and retail, SEMA FOODS serves over 300 people through various programs. Recognizing the challenges customers face in purchasing foodstuffs and the rising cost of food in Nigeria, SEMA FOODS is committed to providing solutions. They are dedicated to addressing issues such as delivery delays and the overseas longing for African foods. The company aims to offer customers a home away from home satisfaction by ensuring the accessibility and quality of African foodstuffs, along with meeting specified delivery deadlines. Overall, SEMA FOODS stands as a promising venture focused on transforming the food industry and meeting the diverse needs of its customers.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a></div>
+              <div class="about-col">
+                <img src="Images/about.jpg">
+              </div>
+            </div>
+           </section>
+         
+         <section class="footer">
+          <h4>About Us</h4>
+          <p>This is Our Social Media Handles where you will see more about what we sell and produce.</p>
+           <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-envelope"></i>
+            <i class="fa fa-whatsapp"></i>
+           </div>
+           <p>Made with <i class="fa fa-heart-o"></i> by SEMA FOODS</p>
+         </section>
+
+         
+
+        <!------JavaScript for Toggle menu------>
+        <script>
+
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+            navLinks.style.right ="0";
+          } 
+          function hideMenu(){
+            navLinks.style.right ="-200px";
+          } 
+        
+        </script>
+    </body>
+</html>
